@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		103A21D5298D2B2D0000BB7B /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21D4298D2B2D0000BB7B /* NSObject.swift */; };
 		103A21D7298D2E790000BB7B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21D6298D2E790000BB7B /* UIView.swift */; };
+		103A21D9298D317E0000BB7B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21D8298D317E0000BB7B /* SignUpVC.swift */; };
+		103A21DC298D31C90000BB7B /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21DB298D31C90000BB7B /* SignUpViewModel.swift */; };
+		103A21DF298D329D0000BB7B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21DE298D329D0000BB7B /* MainTabBarController.swift */; };
+		103A21E2298D32ED0000BB7B /* ViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21E1298D32ED0000BB7B /* ViewControllerType.swift */; };
+		103A21E8298D34BF0000BB7B /* MembershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21E7298D34BF0000BB7B /* MembershipVC.swift */; };
+		103A21EA298D34CC0000BB7B /* StudyPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21E9298D34CC0000BB7B /* StudyPlanVC.swift */; };
+		103A21EC298D34DC0000BB7B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21EB298D34DC0000BB7B /* SettingsVC.swift */; };
+		103A21EE298D35210000BB7B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21ED298D35210000BB7B /* Main.swift */; };
+		103A21F1298D35800000BB7B /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21F0298D35800000BB7B /* EventsVC.swift */; };
+		103A21F4298D35C60000BB7B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103A21F3298D35C60000BB7B /* BaseVC.swift */; };
 		10B2225B298D188E006DEDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B2225A298D188E006DEDDC /* AppDelegate.swift */; };
 		10B22264298D188F006DEDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B22263298D188F006DEDDC /* Assets.xcassets */; };
 		10B22276298D1C80006DEDDC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B22275298D1C80006DEDDC /* MainVC.swift */; };
@@ -20,6 +30,16 @@
 /* Begin PBXFileReference section */
 		103A21D4298D2B2D0000BB7B /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		103A21D6298D2E790000BB7B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		103A21D8298D317E0000BB7B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		103A21DB298D31C90000BB7B /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		103A21DE298D329D0000BB7B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		103A21E1298D32ED0000BB7B /* ViewControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerType.swift; sourceTree = "<group>"; };
+		103A21E7298D34BF0000BB7B /* MembershipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipVC.swift; sourceTree = "<group>"; };
+		103A21E9298D34CC0000BB7B /* StudyPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanVC.swift; sourceTree = "<group>"; };
+		103A21EB298D34DC0000BB7B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		103A21ED298D35210000BB7B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		103A21F0298D35800000BB7B /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		103A21F3298D35C60000BB7B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		10B22257298D188E006DEDDC /* G4G2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G4G2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B2225A298D188E006DEDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10B22263298D188F006DEDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +68,78 @@
 				103A21D6298D2E790000BB7B /* UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		103A21DA298D31A70000BB7B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				103A21DB298D31C90000BB7B /* SignUpViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		103A21DD298D327A0000BB7B /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				103A21DE298D329D0000BB7B /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		103A21E0298D32DB0000BB7B /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				103A21E1298D32ED0000BB7B /* ViewControllerType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		103A21E3298D344C0000BB7B /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				103A21ED298D35210000BB7B /* Main.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		103A21E4298D34610000BB7B /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				103A21EB298D34DC0000BB7B /* SettingsVC.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		103A21E5298D347C0000BB7B /* StudyPlanVC */ = {
+			isa = PBXGroup;
+			children = (
+				103A21E9298D34CC0000BB7B /* StudyPlanVC.swift */,
+			);
+			path = StudyPlanVC;
+			sourceTree = "<group>";
+		};
+		103A21E6298D34A00000BB7B /* MembershipVC */ = {
+			isa = PBXGroup;
+			children = (
+				103A21E7298D34BF0000BB7B /* MembershipVC.swift */,
+			);
+			path = MembershipVC;
+			sourceTree = "<group>";
+		};
+		103A21EF298D356F0000BB7B /* EventsVC */ = {
+			isa = PBXGroup;
+			children = (
+				103A21F0298D35800000BB7B /* EventsVC.swift */,
+			);
+			path = EventsVC;
+			sourceTree = "<group>";
+		};
+		103A21F2298D35B70000BB7B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				103A21F3298D35C60000BB7B /* BaseVC.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		10B2224E298D188E006DEDDC = {
@@ -79,20 +171,20 @@
 		10B2226E298D1BF3006DEDDC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				103A21F2298D35B70000BB7B /* Base */,
+				103A21EF298D356F0000BB7B /* EventsVC */,
+				103A21E6298D34A00000BB7B /* MembershipVC */,
+				103A21E5298D347C0000BB7B /* StudyPlanVC */,
+				103A21E4298D34610000BB7B /* SettingsVC */,
+				103A21E3298D344C0000BB7B /* MainVC */,
+				103A21E0298D32DB0000BB7B /* Enum */,
+				103A21DD298D327A0000BB7B /* MainTabBarController */,
 				10B22273298D1C3B006DEDDC /* SignUp part */,
 				10B22272298D1C1E006DEDDC /* SignIn part */,
 				10B22271298D1C07006DEDDC /* Main part */,
-				10B2226F298D1BF9006DEDDC /* Base */,
 				10B22274298D1C4B006DEDDC /* Resources */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		10B2226F298D1BF9006DEDDC /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		10B22271298D1C07006DEDDC /* Main part */ = {
@@ -115,6 +207,8 @@
 		10B22273298D1C3B006DEDDC /* SignUp part */ = {
 			isa = PBXGroup;
 			children = (
+				103A21DA298D31A70000BB7B /* View Model */,
+				103A21D8298D317E0000BB7B /* SignUpVC.swift */,
 			);
 			path = "SignUp part";
 			sourceTree = "<group>";
@@ -211,9 +305,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103A21EC298D34DC0000BB7B /* SettingsVC.swift in Sources */,
+				103A21EE298D35210000BB7B /* Main.swift in Sources */,
+				103A21D9298D317E0000BB7B /* SignUpVC.swift in Sources */,
 				10B2227B298D1CE6006DEDDC /* LoginViewController.swift in Sources */,
+				103A21DF298D329D0000BB7B /* MainTabBarController.swift in Sources */,
+				103A21DC298D31C90000BB7B /* SignUpViewModel.swift in Sources */,
 				10B2225B298D188E006DEDDC /* AppDelegate.swift in Sources */,
+				103A21EA298D34CC0000BB7B /* StudyPlanVC.swift in Sources */,
+				103A21E8298D34BF0000BB7B /* MembershipVC.swift in Sources */,
 				103A21D5298D2B2D0000BB7B /* NSObject.swift in Sources */,
+				103A21E2298D32ED0000BB7B /* ViewControllerType.swift in Sources */,
+				103A21F4298D35C60000BB7B /* BaseVC.swift in Sources */,
+				103A21F1298D35800000BB7B /* EventsVC.swift in Sources */,
 				10B22276298D1C80006DEDDC /* MainVC.swift in Sources */,
 				103A21D7298D2E790000BB7B /* UIView.swift in Sources */,
 				10B22279298D1CCE006DEDDC /* LoginViewModel.swift in Sources */,
