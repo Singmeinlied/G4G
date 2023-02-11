@@ -6,11 +6,19 @@
 //
 
 import UIKit
+import SnapKit
 
 class Main: BaseVC{
+    
     override func setupViews() {
-        super.setupViews()
         
         view.backgroundColor = UIColor(red: 0.965, green: 0.965, blue: 0.965, alpha: 1)
+        
+    }
+    
+    override func setupValues() {
+        
+    }
+    override func setupConstrains() {
     }
 }
