@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class Main: BaseVC{
+class MainVC: BaseVC{
     
     override func setupViews() {
         

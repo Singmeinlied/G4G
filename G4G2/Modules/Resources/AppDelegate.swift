@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        navController?.navigationBar.isHidden = true
 //        window.rootViewController = navController
         
+
         if let user = UserDefaults.standard.string(forKey: "login"){
             if user.isEmpty{
                 guestPart()
@@ -38,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func loginPart(){
+    func WelcomePage(){
         self.window?.rootViewController = navController(vc: LoginViewController())
     }
     
@@ -53,5 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return viewController
     }
+    
+    
 }
 

@@ -20,20 +20,13 @@ class MainTabBarController: UITabBarController{
         self.tabBar.backgroundColor = .white
         self.tabBar.tintColor = UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)
         self.tabBar.unselectedItemTintColor = UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)
-        
-//        self.tabBar.layer.shadowRadius = 0
-//        self.tabBar.layer.shadowOpacity = 1
-//        self.tabBar.layer.shadowColor = UIColor.lightGray.cgColor
-//        self.tabBar.layer.shadowOffset = CGSize(width: 0, height: -1)
-        
         self.selectedIndex = 0
     }
     func setupViewControllers(){
         self.setViewControllers([
-//            setupCurrentViewController(.events),
             setupCurrentViewController(.main),
-            setupCurrentViewController(.membership),
             setupCurrentViewController(.studyplan),
+            setupCurrentViewController(.projects),
             setupCurrentViewController(.settings)
         ], animated: false)
     }

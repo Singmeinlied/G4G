@@ -10,21 +10,18 @@ import UIKit
 enum ViewControllerType{
     
     case studyplan
-    case membership
+    case projects
     case main
-//    case events
     case settings
     
     var viewController: UIViewController{
         switch self {
         case .studyplan:
             return UINavigationController(rootViewController: StudyPlanVC())
-        case .membership:
+        case .projects:
             return UINavigationController(rootViewController: MembershipVC())
         case .main:
-            return UINavigationController(rootViewController: Main())
-//        case .events:
-//            return UINavigationController(rootViewController: EventsVC())
+            return UINavigationController(rootViewController: MainVC())
         case .settings:
             return UINavigationController(rootViewController: SettingsVC())
         }
@@ -34,30 +31,26 @@ enum ViewControllerType{
     var selectedImage: UIImage{
         switch self {
         case .studyplan:
-            return UIImage(named: "StudyPlan")?.withTintColor(UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)) ?? UIImage()
-        case .membership:
-            return UIImage(named: "Membership")?.withTintColor(UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)) ?? UIImage()
+            return UIImage(named: "StudyPlan")?.withTintColor(UIColor(red: 0.501, green: 0.276, blue: 0.642, alpha: 1)) ?? UIImage()
+        case .projects:
+            return UIImage(named: "Projects")?.withTintColor(UIColor(red: 0.501, green: 0.276, blue: 0.642, alpha: 1)) ?? UIImage()
         case .main:
-            return UIImage(named: "Main")?.withTintColor(UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)) ?? UIImage()
-//        case .events:
-//            return UIImage(named: "")?.withTintColor(UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)) ?? UIImage()
+            return UIImage(named: "Home")?.withTintColor(UIColor(red: 0.501, green: 0.276, blue: 0.642, alpha: 1)) ?? UIImage()
         case .settings:
-            return UIImage(named: "Setting")?.withTintColor(UIColor(red: 0.796, green: 0.667, blue: 0.796, alpha: 1)) ?? UIImage()
+            return UIImage(named: "Setting")?.withTintColor(UIColor(red: 0.501, green: 0.276, blue: 0.642, alpha: 1)) ?? UIImage()
         }
     }
     
     var unselectedImage: UIImage{
         switch self {
         case .studyplan:
-            return UIImage(named: "StudyPlan")?.withTintColor(UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)) ?? UIImage()
-        case .membership:
-            return UIImage(named: "Membership")?.withTintColor(UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)) ?? UIImage()
+            return UIImage(named: "StudyPlan")?.withTintColor(UIColor(red: 0.56, green: 0.541, blue: 0.729, alpha: 1)) ?? UIImage()
+        case .projects:
+            return UIImage(named: "Projects")?.withTintColor(UIColor(red: 0.56, green: 0.541, blue: 0.729, alpha: 1)) ?? UIImage()
         case .main:
-            return UIImage(named: "Main")?.withTintColor(UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)) ?? UIImage()
-//        case .events:
-//            return UIImage(named: "")?.withTintColor(UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)) ?? UIImage()
+            return UIImage(named: "Home")?.withTintColor(UIColor(red: 0.56, green: 0.541, blue: 0.729, alpha: 1)) ?? UIImage()
         case .settings:
-            return UIImage(named: "Setting")?.withTintColor(UIColor(red: 0.6, green: 0.6, blue: 0.6, alpha: 1)) ?? UIImage()
+            return UIImage(named: "Setting")?.withTintColor(UIColor(red: 0.56, green: 0.541, blue: 0.729, alpha: 1)) ?? UIImage()
         }
     }
     
@@ -65,15 +58,13 @@ enum ViewControllerType{
         switch self {
         
         case .studyplan:
-            return "Study plan"
-        case .membership:
-            return "Membership"
+            return "Видеоблог"
+        case .projects:
+            return "Проекты"
         case .main:
-            return "Main"
-//        case .events:
-//            return "Events"
+            return "Главная"
         case .settings:
-            return "Settings"
+            return "Профиль"
         }
     }
 }
