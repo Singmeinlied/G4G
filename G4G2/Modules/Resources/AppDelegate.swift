@@ -19,11 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self .window = window
         
-//        navController = UINavigationController(rootViewController: MainVC())
-//        navController?.navigationBar.isHidden = true
-//        window.rootViewController = navController
-        
-
         if let user = UserDefaults.standard.string(forKey: "login"){
             if user.isEmpty{
                 guestPart()

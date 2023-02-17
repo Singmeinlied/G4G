@@ -14,6 +14,8 @@ class WelcomePage: BaseVC{
         view.backgroundColor = UIColor(red: 0.946, green: 0.946, blue: 0.946, alpha: 1)
         
         view.backgroundColor = .systemPink
+        
+        
     }
     override func setupConstrains() {
         super.setupConstrains()
